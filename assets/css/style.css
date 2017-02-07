@@ -114,6 +114,7 @@ section {
     background: inherit;
     border-color: #dddddd;
     overflow: auto;
+
 }
 
 .main-section {
@@ -139,6 +140,18 @@ section {
 
 .underline {
     text-decoration: underline;
+}
+.property-name {        
+    padding: 7px 0;
+}
+
+.property-value {
+    padding: 7px;
+    margin-bottom: 5px;
+    border-color: #AAA;
+    border-style: solid;
+    border-width: 0.5px;
+    font-size: 14px;
 }
 
 .img-profile {
@@ -171,7 +184,25 @@ button {
 button:hover {
     background: #52EDC7;
 }
+.portfolio-container {
+    float: left;
+    padding: 5px;
+    margin: 10px 15px;
+    position: relative;
+}
 
+.img-portfolio {
+    width: 240px;
+    height: 190px;
+}
+.title-box {
+    margin-left: 50px;
+    padding: 30px 20px 30px 20px;
+    float: left;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-weight: bold;
+}
 .img-title {
     background: #4aaaa5;
     color: #fff;
@@ -255,6 +286,24 @@ footer {
     .img-portfolio {
         width: 240px;
         height: 190px;
+    }
+    .title-box {
+        margin-left: 50px;
+        padding: 30px 20px 30px 20px;
+        float: left;
+        background: #4aaaa5;
+        color: #ffffff;
+        font-weight: bold;
+    }
+    .img-title {
+        background: #4aaaa5;
+        color: #fff;
+        font-size: 20px;
+        top: 130px;
+        padding: 15px 0px;
+        position: absolute;
+        width: 240px;
+        text-align: center;
     }
 
     footer {
@@ -350,16 +399,18 @@ footer {
     
     .main-section {
         background: #fff;
-        width: 660px;
+        width: 640px;
         padding: 15px;
         float: left;
+        margin: 0 auto;
         margin-bottom: 25px;
+        text-align: left;
     }
 
     .side-bar {
-        width: 660px;
+        width: 640px;
         background: #fff;
-        margin: auto;
+        margin: 0 auto;
         padding: 15px;
         float: left;
         text-align: left;
@@ -383,7 +434,7 @@ footer {
     .portfolio-container {
         float: left;
         padding: 5px;
-        margin: 10px 25px;
+        margin: 10px 15px;
         position: relative;
     }
 
@@ -404,7 +455,7 @@ footer {
     }
 
     footer {
-        width: 700px;
+        width: 100%;
         bottom: 0px;
         position: fixed;
         left: 0px;
@@ -553,6 +604,7 @@ footer {
         text-align: center;
     }
     footer {
+        width: 100%;
         bottom: 0px;
         position: absolute;
         left: 0px;
