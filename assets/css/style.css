@@ -243,3 +243,230 @@ footer {
     background: #666666;
     border-top: 7px solid #4aaaa5;
 }
+
+
+
+@media screen and (max-width: 980px) {
+    body {
+
+    }
+} 
+
+
+@media screen and (max-width: 768px) {
+    
+    header {
+        height: 100%;
+        text-align: center;
+        color: #777777;
+        background: #ffffff;
+        border-color: #cccccc;
+        overflow: auto;
+    }
+    
+    .title-box {
+        width: 768px;
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+        padding: 30px 20px 30px 20px;
+        float: left;
+        background: #4aaaa5;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+
+
+    .nav-items {
+        width: 700px;
+        display: block;
+        float: left;
+        padding: 30px 20px 30px 20px;
+    } 
+
+    .nav-item-about {
+        width: 30%;
+        float:left;
+        margin-right: 5px;
+        border-right: 1px solid #AAA;
+        padding: 5px 10px 5px 5px;
+    }
+
+    .nav-item-portfolio {
+        width: 30% ;
+        float:left;
+        margin-right: 5px;
+        border-right: 1px solid #AAA;
+        padding: 5px 10px 5px 5px;
+    }
+
+    .nav-item-contact {
+        width: 30%;
+        float:left;
+        padding: 5px 10px 5px 5px;
+    }
+    
+    section {
+        width: 700px;
+        margin: 25px;
+        border-color: #dddddd;
+        display: block;
+        overflow: auto;
+    }
+    
+    .main-section {
+        background: #fff;
+        width: 700px;
+        padding: 15px;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .side-bar {
+        width: 700px;
+        background: #fff;
+        padding: 15px;
+        float: left;
+        text-align: left;
+    }
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    
+    header {
+        height: 100%;
+        text-align: center;
+        color: #777777;
+        background: #ffffff;
+        border-color: #cccccc;
+        overflow: auto;
+    }
+    
+    .title-box {
+        width: 640px;
+        text-align: center;
+        display: block;
+        margin-left: 0px;
+        padding: 30px 20px 30px 20px;
+        float: left;
+        background: #4aaaa5;
+        color: #ffffff;
+        font-weight: bold;
+    }
+
+    .nav-title {
+        width: 640px;
+        float: left;
+    }
+
+    .nav-items {
+        width: 580px;
+        display: block;
+        float: left;
+        padding: 30px 20px 30px 20px;
+    } 
+
+    .nav-item-about {
+        width: 30%;
+        float:left;
+        margin-right: 5px;
+        border-right: 1px solid #AAA;
+        padding: 5px 10px 5px 5px;
+    }
+
+    .nav-item-portfolio {
+        width: 30% ;
+        float:left;
+        margin-right: 5px;
+        border-right: 1px solid #AAA;
+        padding: 5px 10px 5px 5px;
+    }
+
+    .nav-item-contact {
+        width: 30%;
+        float:left;
+        padding: 5px 10px 5px 5px;
+    }
+    
+    section {
+        width: 570px;
+        margin: 25px;
+        border-color: #dddddd;
+        display: block;
+        overflow: auto;
+    }
+    
+    .main-section {
+        background: #fff;
+        width: 570px;
+        padding: 15px;
+        float: left;
+        margin-bottom: 25px;
+    }
+
+    .side-bar {
+        width: 570px;
+        background: #fff;
+        padding: 15px;
+        margin-left: auto;
+        float: left;
+        text-align: left;
+    }
+    
+    .property-name {
+        width: 90%;
+        padding: 7px 0;
+    }
+
+    .property-value {
+        width: 90%;
+        padding: 7px;
+        margin-bottom: 5px;
+        border-color: #AAA;
+        border-style: solid;
+        border-width: 0.5px;
+        font-size: 14px;
+    }
+    
+    .img-profile {
+        float: left;
+        margin: 10px 12.5%;
+        height: 400px;
+        width: 400px;
+        margin-bottom: 15px;
+    }   
+    .portfolio-container {
+        width: 480px;
+        padding: 5px;
+        margin: 10px 15px;
+    }
+
+    .img-portfolio {
+        width: 480px;
+        height: 250px;
+    }
+
+    .img-title {
+        background: #4aaaa5;
+        color: #fff;
+        font-size: 20px;
+        top: 180px;
+        padding: 15px 0px;
+        position: absolute;
+        width: 480px;
+        text-align: center;
+    }
+    footer {
+        bottom: 0px;
+        position: absolute;
+        left: 0px;
+        padding: 30px;
+        color: #EEE;
+        background: #666666;
+        border-top: 7px solid #4aaaa5;
+    }
+
+}
