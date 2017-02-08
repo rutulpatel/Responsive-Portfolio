@@ -1,80 +1,67 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
+
 <head>
-  <title>Basic Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
 </head>
+
 <body>
-<div id="main-wrapper">
-  <div id="main-body">
-      
-      <!-- Header section -->
-      <header>
-          <div class="nav-title">
-            <div class="title-box title-text">
-                <h1>Rutul Patel</h1>
-            </div>  
-          </div>
-          <div class="nav-items">
-              <div class="nav-item-about">
-                <h3><a href="index.html">About</a></h3>
-              </div>
-              <div class="nav-item-portfolio">
-                <h3><a href="portfolio.html">Portfolio</a></h3>
-              </div>
-              <div class="nav-item-contact">     
-                <h3><a href="contact.html">Contact</a></h3>
-              </div>
-          </div>
-      </header>
-      
-      <!-- Content section -->
-      <section>
-          <div class="main-section">
-              <div class="main-section-header teal-color-text title-text">
-                <h2>Contact</h2>
-              </div>
-              <hr>
-              <div class="main-section-content">
-                  <div class="sub-content">
-                      <form>
-                          <div class="property-name">Name</div>
-                          <input type="text" class="property-value" name="name" id="name" placeholder="John Smith">
-                          <div class="property-name">Email</div>
-                          <input type="email" class="property-value" name="email" id="email" placeholder="example@gmail.com">
-                          <div class="property-name">Message</div>
-                          <textarea rows="10" id="message" class="property-value"> </textarea><br>
-                          <button type="submit">Submit</button>
-                      </form>
-                  </div>
-              </div>
-              
-          </div>
-          <div class="side-bar">
-              <div class="side-bar-header teal-color-text title-text">
-                <h3>Connect with Me</h3>
-              </div>
-              <hr>
-              <div class="side-bar-content">
-                <a href="https://github.com/rutulpatel" target="_blank">
-                    <img class="img-icon" src="assets/images/github.png" alt="Github" title="Github">
-                </a>
-                <a href="https://www.linkedin.com/in/rutul" target="_blank">
-                    <img class="img-icon" src="assets/images/linkedin.png" alt="Linkedin" title="Linkedin">
-                  </a>
-                <a href="http://stackoverflow.com/users/2682842/rutulpatel" target="_blank">
-                    <img class="img-icon" src="assets/images/stackoverflow.png" alt="Stackoverflow" title="Stackoverflow">
-                </a>
-              </div>
-          </div>
-      </section>
-  </div>    
-  <!-- Footer -->
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Rutul Patel</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="https://github.com/rutulpatel" target="_blank"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="https://www.linkedin.com/in/rutul" target="_blank"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="http://stackoverflow.com/users/2682842/rutulpatel" target="_blank"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
   <footer>
-      &copy; Copyright 2017 Rutul Patel
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
   </footer>
-</div>
-    
 </body>
+
 </html>
