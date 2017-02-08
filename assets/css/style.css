@@ -103,6 +103,10 @@ nav a:first-child {
 
 footer {
   padding: 30px 0;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
   clear: both;
   color: #fff;
   color: #ccc;
@@ -166,7 +170,7 @@ h3,
 
 .work {
   position: relative;
-  width: 274px;
+  width: 254px;
   overflow: auto;
   float: left;
   margin: 20px 0 25px;
@@ -244,3 +248,569 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media (max-width: 980px) {
+    
+    /*header*/
+
+    #masthead {
+      position: fixed;
+      z-index: 99;
+      margin: 0 0 30px;
+      overflow: auto;
+      width: 100%;
+      color: #fff;
+      background: #fff;
+      border-bottom: 2px solid #ccc;
+    }
+
+    #logo {
+      width: 250px;
+      height: 90px;
+      float: left;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      text-align: center;
+      line-height: 90px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 30px;
+      text-decoration: none;
+      background: #4aaaa5;
+    }
+
+    nav {
+      float: right;
+      height: auto;
+    }
+
+    nav a {
+      display: inline-block;
+      margin-left: 15px;
+      padding-left: 15px;
+      color: #999;
+      text-decoration: none;
+      line-height: 18px;
+      border-left: 1px solid #efefef;
+    }
+
+    nav a:first-child {
+      border-left: 0 none;
+    }
+
+    /*footer*/
+
+    footer {
+      padding: 30px 0;
+      position: fixed;
+        width: 100%;
+      left: 0;
+      bottom: 0;
+      clear: both;
+      color: #fff;
+      color: #ccc;
+      font-size: 12px;
+      text-align: center;
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+    }
+
+
+    /*sidebar*/
+
+    .sidebar {
+      padding: 30px;
+      width: 28%;
+      max-width: 270px;
+      float: right;
+      margin-bottom: 20px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+    h3,
+    .sidebar h2 {
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+      line-height: 22px;
+      border-bottom: 2px solid #eee;
+    }
+
+    .social {
+      width: 62px;
+      height: 62px;
+      margin-top: 8px;
+      margin-right: 5px;
+    }
+
+    .social:last-child {
+      margin-right: 0;
+    }
+
+
+    /*main*/
+
+    #main-container {
+      padding-top: 130px;
+    }
+
+    .main-section {
+      padding: 30px;
+      margin: 0 0 40px 0;
+      width: 68%;
+      max-width: 650px;
+      float: left;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+
+    /*portfolio page*/
+
+    .work {
+      position: relative;
+      width: 45%;
+      overflow: auto;
+      float: left;
+      margin: 20px 0 25px;
+    }
+
+    .work:nth-child(even) {
+      margin-right: 40px;
+    }
+
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: .8;
+    }
+
+    .work h3 {
+      position: absolute;
+      bottom: 20px;
+      margin-bottom: 0;
+      padding: 15px;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 300;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+
+    .auth-image {
+      width: 200px;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+      float: left;
+    }
+
+
+    
+}
+
+
+@media (max-width: 768px) {
+    
+    /*header*/
+
+    #masthead {
+      position: fixed;
+      z-index: 99;
+      margin: 0 0 30px;
+      overflow: auto;
+      width: 100%;
+      color: #fff;
+      background: #fff;
+      border-bottom: 2px solid #ccc;
+    }
+
+    #logo {
+      width: 250px;
+      height: 90px;
+      float: left;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      text-align: center;
+      line-height: 90px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 30px;
+      text-decoration: none;
+      background: #4aaaa5;
+    }
+
+    nav {
+      margin-top: 0px;
+      overflow: auto;
+      height: 90px;
+        float: right;
+      line-height: 90px;
+    }
+
+    nav a {
+      text-align: center;
+      display: inline-block;
+      margin-left: 15px;
+      padding-right: 15px;
+      color: #999;
+      text-decoration: none;
+      line-height: 18px;
+      border-left: 1px solid #efefef;
+    }
+
+    nav a:first-child {
+      border-left: 0 none;
+    }
+
+    /*sidebar*/
+
+    .sidebar {
+      padding: 30px;
+        width: 100%;
+      text-align: left;
+      display: inline-block;
+      max-width: 90%;
+      margin: 5%;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+    h3,
+    .sidebar h2 {
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+      line-height: 22px;
+      border-bottom: 2px solid #eee;
+    }
+
+    .social {
+      width: 62px;
+      height: 62px;
+      margin-top: 8px;
+      margin-right: 5px;
+    }
+
+    .social:last-child {
+      margin-right: 0;
+    }
+
+    /*main*/
+
+    #main-container {
+        width: 100%;
+    }
+
+    .main-section {
+      margin: 0% 5% 0% 5%;
+      width: 90%;
+      max-width: 650px;
+      float: left;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+
+    /*portfolio page*/
+
+    .work {
+      position: relative;
+      width: 45%;
+      overflow: auto;
+      float: left;
+      margin: 2.5% 0.5% 2.5% 0.5%;
+    }
+
+    .work:nth-child(even) {
+      margin-right: 40px;
+    }
+
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: .8;
+    }
+
+    .work h3 {
+      position: absolute;
+      bottom: 20px;
+      margin-bottom: 0;
+      padding: 15px;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 300;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+
+    .auth-image {
+      width: 300px;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 25px;
+      float: left;
+    }
+
+
+    /*contact page*/
+
+    #contact-form ul {
+      margin-bottom: 20px;
+    }
+
+    #contact-form li {
+      margin-bottom: 10px;
+    }
+
+    label,
+    input[type=text],
+    input[type=email],
+    textarea {
+      display: block;
+      width: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+      height: 35px;
+      padding: 0 10px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+    }
+
+    textarea {
+      height: 200px;
+    }
+
+    input[type=submit] {
+      padding: 10px 30px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      background: #4aaaa5;
+      border: 0 none;
+    }
+    /*footer*/
+
+    footer {
+      padding: 30px 0;
+      position: sticky;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      clear: both;
+      color: #fff;
+      color: #ccc;
+      font-size: 12px;
+      text-align: center;
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+    }
+}
+
+
+@media (max-width: 640px) {
+    
+    /*header*/
+
+    #masthead {
+      position: absolute;
+      height: inherit;
+      z-index: 99;
+      margin: 0 0 30px;
+      overflow: auto;
+      width: 100%;
+      color: #fff;
+      background: #fff;
+      border-bottom: 2px solid #ccc;
+    }
+
+    #logo {
+      width: 100%;
+      height: 90px;
+      float: left;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      text-align: center;
+      line-height: 90px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 30px;
+      text-decoration: none;
+      background: #4aaaa5;
+    }
+
+    nav {
+      margin-top: 0px;
+      overflow: auto;
+      width: 100%;
+      height: auto;
+      line-height: 50px;
+    }
+
+    nav a {
+      width: 30%;
+      text-align: center;
+      display: inline-block;
+      margin-left: 2.5%;
+      padding-left: 2.5%;
+      color: #999;
+      text-decoration: none;
+      line-height: 18px;
+      border-left: 1px solid #efefef;
+    }
+
+    nav a:first-child {
+      border-left: 0 none;
+    }
+
+    /*sidebar*/
+
+    .sidebar {
+      width: 100%;
+      padding: 30px;
+      text-align: left;
+      display: inline-block;
+      max-width: 90%;
+      margin: 5%;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+    h3,
+    .sidebar h2 {
+      padding-bottom: 20px;
+      margin-bottom: 15px;
+      line-height: 22px;
+      border-bottom: 2px solid #eee;
+    }
+
+    .social {
+      width: 62px;
+      height: 62px;
+      margin-top: 8px;
+      margin-right: 5px;
+    }
+
+    .social:last-child {
+      margin-right: 0;
+    }
+
+    /*main*/
+
+    #main-container {
+        width: 100%;
+    }
+
+    .main-section {
+      padding: 30px;
+      margin: 5% 5% 0% 5%;
+      width: 90%;
+      max-width: 650px;
+      float: left;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+
+
+    /*portfolio page*/
+
+    .work {
+      position: relative;
+      width: 90%;
+      overflow: auto;
+      float: left;
+      margin: 5%;
+    }
+
+    .work:nth-child(even) {
+      margin-right: 40px;
+    }
+
+    .work img {
+      width: 100%;
+      border: 0 none;
+      opacity: .8;
+    }
+
+    .work h3 {
+      position: absolute;
+      bottom: 20px;
+      margin-bottom: 0;
+      padding: 15px;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      font-weight: 300;
+      background: #4aaaa5;
+      border-bottom: 0;
+    }
+
+    .auth-image {
+      width: 90%;
+      height: auto;
+      margin-bottom: 5%;
+      float: left;
+    }
+
+
+    /*contact page*/
+
+    #contact-form ul {
+      margin-bottom: 20px;
+    }
+
+    #contact-form li {
+      margin-bottom: 10px;
+    }
+
+    label,
+    input[type=text],
+    input[type=email],
+    textarea {
+      display: block;
+      width: 100%;
+    }
+
+    input[type=text],
+    input[type=email],
+    textarea {
+      height: 35px;
+      padding: 0 10px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+    }
+
+    textarea {
+      height: 200px;
+    }
+
+    input[type=submit] {
+      padding: 10px 30px;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      background: #4aaaa5;
+      border: 0 none;
+    }
+
+    /*footer*/
+
+    footer {
+      position: relative;
+      padding: 25px 0;
+      clear: both;
+      color: #fff;
+      color: #ccc;
+      font-size: 12px;
+      text-align: center;
+      background: #666;
+      border-top: 8px solid #4aaaa5;
+    }
+}
+
+
+
